@@ -33,10 +33,10 @@ class School(QMainWindow):
         
         layout = QGridLayout()
         self.lbl = QLabel("Добавить ученика")
-        self.lbl_1 = QLabel("Добавить ФИО")
+        self.lbl_1 = QLabel("ФИО")
         self.full_name = QLineEdit()
-        self.lbl_3 = QLabel("Выбрать класс")
-        self.lbl_4 = QLabel("Выбрать индекс класса")
+        self.lbl_3 = QLabel("Класс")
+        self.lbl_4 = QLabel("Индекс класса")
         self.btn_add = QPushButton("Добавить")
         self.btn_exit = QPushButton("Выход")
         self.btn_add_index = QPushButton("Добавить индекс")
